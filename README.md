@@ -15,4 +15,4 @@ Generates random line from txt file. Can be used for choosing a name from list o
 
 **Screen**
 
-![Image](https://raw.githubusercontent.com/dhaliscak/JustTools/master/path/to/randomizer.gif "Gif of running program")
+![Image](https://raw.githubusercontent.com/dhaliscak/JustTools/master/randomizer.gif "Gif of running program")
