@@ -29,7 +29,7 @@ namespace Randomizer
                     {
                         index = rand.Next(0, lenghtOfArray);
                         Console.WriteLine(lines[index]);
-                        Thread.Sleep(slowdown);
+                        Thread.Sleep(slowDown);
                         Console.SetCursorPosition(0, Console.CursorTop - 1);
                         ClearCurrentConsoleLine();
                     }
