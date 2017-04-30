@@ -9,7 +9,9 @@ namespace Randomizer
     {
         static void Main(string[] args)
         {
-            const string path = "zoznam.txt";
+            const string path = "list.txt";
+            var slowDown = 50;
+            
             if (File.Exists(path))
             {
                 // Read each line of the file into a string array 
@@ -19,7 +21,7 @@ namespace Randomizer
                 var lenghtOfArray = lines.Length;
                 var index = 0;
 
-                Console.WriteLine("Prebieha generovanie..");
+                Console.WriteLine("Generating..");
                 Console.WriteLine();
                 do
                 {
@@ -27,7 +29,7 @@ namespace Randomizer
                     {
                         index = rand.Next(0, lenghtOfArray);
                         Console.WriteLine(lines[index]);
-                        Thread.Sleep(50);
+                        Thread.Sleep(slowdown);
                         Console.SetCursorPosition(0, Console.CursorTop - 1);
                         ClearCurrentConsoleLine();
                     }
@@ -36,10 +38,10 @@ namespace Randomizer
                 #region Slowdown Effect
 
                 //Add slowdown at the end of executing
-                var slowDown = 50;
+                
                 for (var i = 0; i < 10; i++)
                 {
-                    slowDown = slowDown + 10;
+                    slowDown += 10;
                     index = rand.Next(0, lenghtOfArray);
                     Console.WriteLine(lines[index]);
                     Thread.Sleep(slowDown);
@@ -51,7 +53,7 @@ namespace Randomizer
 
                 //Write a name to output
                 Console.Clear();
-                Console.WriteLine("Hotovo");
+                Console.WriteLine("Done");
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(lines[index]);
@@ -61,7 +63,7 @@ namespace Randomizer
             }
             else
             {
-                Console.WriteLine("Subor zoznam.txt nenajdeny");
+                Console.WriteLine("File " + path + " was not found");
                 
                 // Keep the console window opened
                 Console.ReadKey();
