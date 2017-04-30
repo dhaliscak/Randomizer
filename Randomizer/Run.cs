@@ -63,7 +63,7 @@ namespace Randomizer
             }
             else
             {
-                Console.WriteLine("File " + path + " was not found");
+                Console.WriteLine($"File {path} was not found");
                 
                 // Keep the console window opened
                 Console.ReadKey();
