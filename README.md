@@ -1,7 +1,4 @@
-# JustTools
-*just a small scripts*
-
-## Randomizer 1.01
+# Randomizer 1.01
 Generates random line from txt file. Can be used for choosing a name from list of users (in contest).
 
 **Precondition:**
