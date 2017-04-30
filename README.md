@@ -11,8 +11,8 @@ Generates random line from txt file. Can be used for choosing a name from list o
 - press Esc key to stop generating
 
 **Download**
-- [Randomizer 1.00](https://raw.githubusercontent.com/dhaliscak/JustTools/master/Randomizer/download/Randomizer.zip)
-- [Randomizer with slowdown effect 1.00](https://raw.githubusercontent.com/dhaliscak/JustTools/master/Randomizer/download/Randomizer_slowDownEffect.zip)
+- [Randomizer 1.00](https://raw.githubusercontent.com/dhaliscak/JustTools/master/Randomizer/download/Randomizer_101.zip)
+- [Randomizer with slowdown effect 1.00](https://raw.githubusercontent.com/dhaliscak/JustTools/master/Randomizer/download/Randomizer_slowDownEffect_101.zip)
 
 **Screen**
 
