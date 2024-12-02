@@ -1,5 +1,0 @@
-C:\xampp\htdocs\Randomizer\Randomizer50\bin\Release\net5.0-windows\publish\Randomizer50.exe
-C:\xampp\htdocs\Randomizer\Randomizer50\bin\Release\net5.0-windows\publish\Randomizer50.dll
-C:\xampp\htdocs\Randomizer\Randomizer50\bin\Release\net5.0-windows\publish\Randomizer50.deps.json
-C:\xampp\htdocs\Randomizer\Randomizer50\bin\Release\net5.0-windows\publish\Randomizer50.runtimeconfig.json
-C:\xampp\htdocs\Randomizer\Randomizer50\bin\Release\net5.0-windows\publish\Randomizer50.pdb
